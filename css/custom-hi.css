@@ -1,0 +1,119 @@
+.btn1 {
+    background-color: #337ab7;
+    width: 30px;
+    font-family: cambria;
+}
+
+.menu1 {
+    color: #2a6592;
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 1px 20px 3px 1px;
+}
+
+.menu2 {
+    background-color: #B9E5F3;
+    color: #043158;
+    font-size: 18px;
+    padding: 0px 7px 12px 0px;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #51A2D9;
+}
+
+.newstyle {
+    background-color: #96bdf3;
+    vertical-align: center;
+    border-width: 1px;
+    border-color: #51A2D9;
+    border-right-style: solid;
+    border-top-style: solid;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.newstyle1 {
+    vertical-align: center;
+    border-width: 1px;
+    border-color: #51A2D9;
+    border-right-style: solid;
+    border-bottom-style: 1px;
+    padding: 10px 10px 1px 10px;
+    background-color: #c6ddfa;
+}
+
+.tablestyle {
+    font-family: cambria;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #51A2D9;
+    background-color: #c6ddfa;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    grid-template-columns: auto auto auto;
+    border-width: 1px;
+    border-color: #51A2D9;
+    border-right-style: solid;
+}
+
+.grid-container1 {
+    vertical-align: center;
+    border-width: 1px;
+    border-color: #51A2D9;
+    border-right-style: solid;
+    display: grid;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+
+.grid-item {
+    border: 1px solid #51A2D9;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 3px;
+    background-color: #337ab7;
+}
+
+.grid-item1 {
+    background-color: #B9E5F3;
+    font-size: 16px;
+    text-align: center;
+    background-color: #337ab7;
+}
+
+.inputapi-transliterate-indic-suggestion-menuitem {
+    list-style: auto;
+    margin: 0;
+    padding: 2px 4px;
+    margin: 0;
+}
+
+.inputapi-transliterate-indic-suggestion-menu {
+    background: #fff url(//web.archive.org/web/20190115191618im_/https://www.gstatic.com/inputtools/images/suggestmenu_bg.png) repeat-x left bottom;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e1e1e1 #c6c6c6 #aeaeae;
+    cursor: default;
+    font: small Arial, Helvetica, sans-serif;
+    margin: 0;
+    outline: none;
+    padding: 4px;
+    position: absolute;
+    -moz-box-shadow: 2px 2px 5px #999;
+    -webkit-box-shadow: 2px 2px 5px #999;
+    box-shadow: 2px 2px 5px #999;
+    z-index: 100;
+}
